@@ -1,0 +1,16 @@
+#Answer no.1
+
+data = lambda num: num + 25
+print(data(10))
+
+#Answer no 2
+
+lst = [1, 2, 3, 4, 5, 6, 7]
+result =list(map(lambda i: i*3, lst))
+print(result)
+
+# Answer 3
+
+lst = [4, 5, 2, 9]
+result =list(map(lambda i: i**2, lst))
+print(result)
